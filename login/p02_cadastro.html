@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="author" content="Diego Fonseca">    
+        <link rel="stylesheet" href="p01_estilo_ns.css"/>
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <form action="http://www.exemplo/review.php" method="get">
+            <fieldset class = "caixa1">
+             <legend> <h2>Faça seu Cadastro.</h2> </legend>
+             <div class="nome">
+                <label> Nome:
+                 <input type="texto" nome="nome" required="requiredo" placeholder="Usuario" size="25" maxlength="50"/>
+                </label> <br/>
+             </div>
+             <div class="email">
+                <label> Email:
+                 <input type="texto" nome="email" required="requiredo" placeholder="Ex: josealmeida@mail.com" size="25" maxlength="50"/>
+                </label> <br/>
+             </div>
+             <div class="telefone">
+                <label> Telefone:
+                 <input type="texto" nome="telefone" required="requiredo" placeholder="Ex: DD 912345600" size="25" maxlength="11"/>
+                </label> <br/>
+             </div>
+             <div class="password">
+                <label class="titulo"> Senha:
+                 <input type="password" name="senha" required="requiredo" placeholder="0 a 14 caracteres" size="25" maxlength="15"/>
+                 <input class="enviar1" type="submit" value="enviar">
+                </label>
+             </div>
+            </fieldset>
+          <p> <h5>Ir para o<a href=p00_nome_senha.html> Login.</a> </h6></p>
+        </form>
+    </body>
+</html>
