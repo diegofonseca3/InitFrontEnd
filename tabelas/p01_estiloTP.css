@@ -1,0 +1,208 @@
+body {
+    font-family: sans-serif, monospace, cursive;
+    color: #111111;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+}
+
+          /* Lubrificantes*/
+
+.lubrificantes {
+    background-color:lightgrey;
+    width: 600px;
+    position: absolute;
+    transform: translateX(40px);
+}
+
+.titulo {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+}
+
+.cores_linhasAlternada {
+    background-color: azure;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: blueviolet;
+}
+
+.dinheiro {
+    text-align: center;
+}
+
+       /* Kit relação*/
+
+.kitRelacao {
+    background-color:lightgrey;
+    width: 600px;
+    position: absolute;
+    transform: translateX(700px);
+}
+
+.titulo {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+}
+
+.cores_linhasAlternada {
+    background-color: azure;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: blueviolet;
+}
+
+.dinheiro {
+    text-align: center;
+}
+
+          /* Filtro de Oleo*/
+
+.filtroOleo {
+    background-color:lightgrey;
+    width: 600px;
+    position: absolute;
+    left: 50px;
+    transform: translateY(350px);
+}
+
+.titulo {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+}
+
+.cores_linhasAlternada {
+    background-color: azure;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: blueviolet;
+}
+
+.dinheiro {
+    text-align: center;
+}
+
+          /* Filtro de Ar*/
+
+.filtroAr {
+    background-color:lightgrey;
+    width: 600px;
+    position: absolute;
+    left: 660px;
+    transform: translateY(-120px);
+}
+
+.titulo {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+}
+
+.cores_linhasAlternada {
+    background-color: azure;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: blueviolet;
+}
+
+.dinheiro {
+    text-align: center;
+}
