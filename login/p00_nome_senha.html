@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="author" content="Diego Fonseca">
+        <link rel="stylesheet" href="p01_estilo_ns.css"/>
+        <title>Login</title>
+    </head>
+    <body>
+        <form action="http://www.exemplo/review.php" method="get">
+            <fieldset class = "caixa">
+            <legend> <h2>Login.</h2> </legend>
+            <div class="nome">
+                <label> Nome:
+                <input type="texto" nome="nome" placeholder="Usuario" required="requiredo" size="25" maxlength="50"/>
+                </label> <br/>
+            </div>
+            <div class="password">
+                <label class="titulo"> Senha:
+                <input type="password" name="senha" placeholder="0 a 14 caracteres" required="requiredo" size="25" maxlength="15"/>
+                <input class="enviar" type="submit" value="enviar">
+                </label>
+            </div>
+            </fieldset>
+        <p> <h5>Ainda não tem cadastro ? Click <a href="p02_cadastro.html"> aqui.</a> </h6></p>
+        </form>
+        <p> <h6>Esqueceu a senha ? Click <a href="p03_novaSenha.html"> aqui.</a> </h6></p>
+    </body>
+</html>
