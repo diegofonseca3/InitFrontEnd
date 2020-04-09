@@ -1,0 +1,99 @@
+/* Login */
+
+body {
+    background-color: aliceblue;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+     
+.enviar {
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+input.enviar:hover {
+    background-color: limegreen;
+    border-radius: 8px;
+}
+
+input.enviar:active {
+    background-color:blue;
+}
+
+.caixa {
+    background-color: darkturquoise;
+    border-radius: 10px;
+    width: 200px;
+    height:250px;
+}
+
+.nome {
+    margin: 10px;
+}
+
+.password {
+    margin: 10px;
+}
+
+          /* Cadastro */
+
+.caixa1 {
+background-color: green;
+border-radius: 10px;
+width: 200px;
+height:350px;
+}          
+
+.email {
+    margin: 10px;
+}
+
+.telefone {
+    margin: 10px;
+}
+
+.enviar1 {
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+input.enviar1:hover {
+    background-color:blueviolet;
+    border-radius: 8px;
+}
+
+input.enviar1:active {
+    background-color:blue;
+}
+
+          /* Nova senha */
+
+.caixa2 {
+background-color: olivedrab;
+border-radius: 10px;
+width: 200px;
+height:100px;
+margin-top: 80px;
+}
+
+.email2 {
+    margin: 10px;
+}
+
+.enviar2 {
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input.enviar2:hover {
+    background-color:blueviolet;
+    border-radius: 8px;
+}
+
+input.enviar2:active {
+    background-color:blue;
+}
