@@ -1,0 +1,518 @@
+/*  */
+body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza em 50% do body na tela, usando o eixo X = horizontal */
+    background-attachment: fixed;
+    background-image: url(imagens/backgroundMadeira.2800x2100.jpg);
+} 
+
+#page {
+    width: 940px;
+    border-style: solid; /*Borda para dar referencia do tamanho do elemento*/
+    border-color: blue;
+    margin-top: 20px;
+    background-color: white;
+}
+
+header { /* Cabeçario da pagina */
+    width: 940px;
+    height: 160px;
+    background-color: slategrey;
+    position: absolute; /* Deixa o espaço vago para outra elemento poder movimentar */
+}
+
+.logo {
+    width: 100px;
+    height:100px;
+    margin: 30px 10px 0px 30px;
+    position: absolute;
+    
+}
+
+h1.titulo {
+    text-align: justify;
+    position: absolute;
+    width: 310px;
+    height: 50px;
+    margin: 50px 0px 0px 130px;
+    font-size: 40px;
+    position: absolute;
+}
+
+h2.subtitulo {
+    text-align: justify;
+    position: absolute;
+    width: 315px;
+    height: 20px;
+    margin: 100px 0px 0px 130px;
+    font-size: 20px;
+    position: absolute;
+} 
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+nav.secundario { /* Nav-secundario-Login/Cadastro */
+    width: 170px;
+    height: 30px;
+    clear: both;
+    margin-top: 10px;
+    background-color: slategrey;
+    position: absolute;
+    right: 2px;
+}
+
+nav.secundario ul { 
+    margin: 0px;
+    padding: 5px 0px 5px 5px;
+}
+
+nav.secundario li { 
+    display: inline;
+    margin-right: 10px; /* Margen do lado direito da li<palavra> */
+    text-align: center;
+}
+
+nav.secundario li a {
+    color: black;
+}
+
+nav.secundario li a:hover { 
+    color: #ffffff;
+    padding: 3px 3px 3px 3px; /* Espaço entre o conteudo a borda */
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+nav.principal { /* Nav-principal-todos */
+    width: 940px;
+    height: 30px;
+    clear: both;
+    color: #ffffff;
+    margin-top: 160px;
+    background-color: cadetblue;
+}
+
+nav.principal ul { /* Elemento referente a Lista não ordenas*/
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav.principal li { /* Listas dos iten de navagação*/
+    display: inline;
+    margin-right: 40px;
+    text-align: center;
+}
+
+nav.principal li a {
+    color: #ffffff;
+}
+
+nav.principal li a:hover,nav li a.current { /* Cada elemento <a href> ficara mão do mouse por causa do :hover*/
+    color: #ffffff; 
+    border-bottom: solid; /* Borda de baixo do tipo solida*/
+    border-bottom-color:black;
+}
+
+section.produtos { /* Sessão dos produtos */
+    float: left;
+    width: 660px;
+    border-right: 1px solid #eeeeee;
+    margin-top: 200px;
+
+    border-style: solid; /* Tool */
+    border-color: transparent;
+}
+
+article.facas { /* Artidos das facas*/
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+ figure {
+     float: left;
+     width: 290px;
+     height: 220px;
+     padding: 5px;
+     margin: 20px;
+     border: 1px solid #eeeeee;
+ }
+
+ figcaption {
+     font-size: 90%;
+     text-align: left;
+ }
+ aside { /**/
+     width: 230px;
+     float: left;
+     padding: 0px 0px 0px 20px;
+     margin-top: 200px;
+ }
+
+ aside section a {
+     display: block;
+     padding: 10px;
+     border-bottom: 1px solid #eeeeee;
+ }
+
+ aside section a:hover {
+     color: #985d6a;
+     background-color: #efefef;
+ }
+
+ a {
+     color: #de6581;
+     text-decoration: none;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #de6581;
+}
+
+footer {
+    width: 940px;
+    height: 30px;
+    clear: both;
+    color: #ffffff;
+    margin-top: 0px;
+    background-color: cadetblue;
+    font-size: 70%;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+/* Login */
+
+.caixa-login {
+    background-color: darkturquoise;
+    border-radius: 10px;
+    width: 200px;
+    height:350px;
+    margin-top: 200px;
+    transform: translateX(100%);
+    position: absolute;
+}
+
+.nome {
+    margin: 10px;
+}
+
+.password {
+    margin: 10px;
+}
+
+input.enviar:hover {
+    background-color: limegreen;
+    border-radius: 8px;
+}
+
+input.enviar:active {
+    background-color:blue;
+}
+
+.enviar {
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+h5.link-cadastro {
+    text-align: center;
+    width: 280px;
+    position: relative;
+    transform: translateX(120%);
+    margin-top: 480px;
+}
+
+h6.link-redefinirSenha {
+    text-align: center;
+    width: 280px;
+    position: relative;
+    transform: translateX(120%);
+    margin-bottom: 50px; /* Este ultimo elemento define a margin bottom ente o login e o footer*/
+}
+
+/* Cadastro */
+
+.caixa-cadastro {
+background-color: green;
+border-radius: 10px;
+width: 200px;
+height:350px;
+margin-top: 200px;
+transform: translateX(100%);
+position: absolute;
+}
+         
+
+.email {
+    margin: 10px;
+}
+
+.telefone {
+    margin: 10px;
+}
+
+.enviar1 {
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+input.enviar1:hover {
+    background-color:blueviolet;
+    border-radius: 8px;
+}
+
+input.enviar1:active {
+    background-color:blue;
+}
+
+h5.link-login {
+    text-align: center;
+    width: 130px;
+    position: relative;
+    transform: translateX(340%);
+    margin-top: 535px;
+    margin-bottom: 40px;
+}
+
+/* Redefinido senha */
+
+.caixa-redefinirSenha {
+background-color: olivedrab;
+border-radius: 10px;
+width: 200px;
+height:220px;
+margin-top: 200px;
+transform: translateX(100%);
+position: absolute;
+
+}
+
+.email2 {
+    margin: 10px;
+}
+
+.enviar2 {
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+input.enviar2:hover {
+    background-color:blueviolet;
+    border-radius: 8px;
+}
+
+input.enviar2:active {
+    background-color:blue;
+}
+
+h5.apos {
+    text-align: center;
+    width: 280px;
+    position: relative;
+    transform: translateX(120%);
+    margin-top: 365px;
+}
+
+h6.lk-login {
+    text-align: center;
+    width: 280px;
+    margin-bottom: 40px;
+    position: relative;
+    transform: translateX(120%);
+}
+
+/*Sobre*/
+
+p.galpao {
+    width: 290px;
+    height:200px;
+    margin-top: 220px;
+    transform: translateX(200%);
+}
+
+img.galpao {
+    border-style: solid; /* Tool */
+    border-color: black;
+}
+
+section.sobre { /* Sessão dos Sobre */
+    float: left;
+    width: 934px;
+    margin-top: 200px;
+    border-style: solid; /* Tool */
+    border-color: transparent;
+}
+
+article.sobre { /* Artidos das sobre*/
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+/*Contatos*/
+
+.contatos {
+
+width: 934px;
+height: 300px; 
+margin-top: 190px;
+margin-bottom: 0px;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+background-color: silver;
+position: relative; 
+border-style: solid; /* Tool */
+border-color: transparent;
+}
+
+/*Classes*/
+
+section.classes {
+    width: 934px;
+    height:960px;
+    margin-top: 190px;
+    border-style: solid; 
+    border-color: transparent;
+}
+
+h2.titulo-classes { /* Titulo do artido */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+article.aco-carbono { /* Aços-carbono */
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    margin-top: 5px;
+    border-style: solid; /* Tool */
+    border-color: transparent;
+}
+
+article.aco-inox { /* Aços-inox */
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    margin-top: 10px;
+    border-style: solid; /* Tool */
+    border-color: transparent;
+}
+
+article.aco-damasco { /* Aços-damasco */
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    margin-top: 10px;
+    border-style: solid; /* Tool */
+    border-color: transparent;
+}
+
+figure.classes {
+    float: right;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+ 
+.infclasses {
+    margin-left: 10px;
+}
+
+p.infclasses {
+    margin-left: 10px;
+}
+
+h4.sub-classes {
+    margin-left: 10px;
+    color: slategray;
+}
+
+/*Categoria*/
+
+section.categoria {
+    width: 934px;
+    height:1090px;
+    margin-top: 190px;
+    border-style: solid; 
+    border-color: transparent;
+}
+
+h2.titulo-categoria { /* Titulo dos Artidos */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+article.cozinha { /* Cozinha */
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(202, 228, 195, 0.840);
+}
+
+article.gourmet { /* Gourmet */
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(180, 230, 175, 0.600);
+}
+
+article.camping { /* Camping */
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgba(125, 155, 125, 0.562);
+}
+
+figure.categoria-facas {
+    float: right;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+ 
+.infclasses {
+    margin-left: 10px;
+}
+
+p.infclasses {
+    margin-left: 10px;
+}
+
+h4.sub-classes {
+    margin-left: 10px;
+    color: slategray;
+}
+
+
+
