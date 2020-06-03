@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cadastro</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="description" content="Artigo de cutelaria, facas e cursos.">
+    <meta name="keywords" content="cutelaria, SP32 Cutelaria, artigo, facas, cursos, html">
+    <meta name="robots" content="nofollow" />
+    <meta name="copyright" content="© 2020 SP32 Cutelaria" />
+    <meta http-equiv="author" content="Diego Fonseca" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="rating" content="general" />
+    <link rel="stylesheet" href="p01_styleSP32cutelaria.css">
+  </head>
+  <body>
+    <!--page-->
+    <div id="page">
+      <!--Cabeçalho-->
+      <header>
+        <img src="imagens/logo100x100.png" class="logo"></img>
+        <h1 class="titulo">SP32 Cutelaria</h1>
+        <h2 class="subtitulo">Fabricação de objetos de corte</h2>
+        <!--Nav-secundario-Login/Cadastro-->
+        <nav class="secundario">
+          <ul>
+            <li><a href="p06_login.html">Login</a></li>
+            <li><a href="p07_cadastro.html">Cadastro</a></li>
+          </ul>
+        </nav>
+        <!--Nav-principal-todos-->
+        <nav class="principal">
+          <ul>
+            <li><a href="p00_SP32cutelaria.html" class="current">Home</a></li>
+            <li><a href="p02_classes.html">classes</a></li>
+            <li><a href="p03_categoria.html">categoria</a></li>
+            <li><a href="p04_sobre.html">sobre</a></li>
+            <li><a href="p05_contatos.html">contatos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--Formulario-Cadastro-->    
+      <form action="http://www.exemplo/review.php" method="get">
+        <fieldset class = "caixa-cadastro">
+          <legend><h2>Cadastro.</h2> </legend>
+          <div class="nome">
+            <label> Nome:
+              <input type="texto" nome="nome" required="requiredo" placeholder="Usuario" size="25" maxlength="50"/>
+            </label> <br/>
+          </div>
+          <div class="email">
+            <label> Email:
+              <input type="texto" nome="email" required="requiredo" placeholder="Ex: josealmeida@mail.com" size="25" maxlength="50"/>
+            </label> <br/>
+          </div>
+          <div class="telefone">
+            <label> Telefone:
+              <input type="texto" nome="telefone" required="requiredo" placeholder="Ex: DD 912345600" size="25" maxlength="11"/>
+            </label> <br/>
+          </div>
+          <div class="password">
+            <label class="titulo"> Senha:
+              <input type="password" name="senha" required="requiredo" placeholder="0 a 14 caracteres" size="25" maxlength="15"/>
+              <input class="enviar1" type="submit" value="enviar">
+            </label>
+          </div>
+        </fieldset>
+      </form>
+      <!--Redirecionamento-para-Login-->
+      <p><h5 class="link-login">Ir para o<a href="p06_login.html"> Login.</a></h5></p>
+      <footer>
+        &copy; 2020 SP32 Cuteraria
+      </footer>
+    </div><!--page-->
+  </body>
+</html>
